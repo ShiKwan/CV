@@ -106,6 +106,12 @@ h6 {
     background-size: cover;
 }
 
+#hero.resume {
+    background: url(../img/hero-resume-bg.jpg) top center fixed;
+    height: 30vh;
+    background-size: cover;
+}
+
 #hero .hero-logo {
     margin: 20px;
 }
@@ -564,7 +570,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #resume .resume-container {
     /* background: url(../img/resume-bg2.jpg) left top no-repeat; */
-
 }
 
 #resume .resume-content {
