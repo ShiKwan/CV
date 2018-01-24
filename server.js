@@ -1,36 +1,29 @@
-var http = require('http')
-var fs = require('fs')
+// Dependencies
+// =============================================================
+var express = require("express");
+var bodyParser = require("body-parser");
+var path = require("path");
 
-var PORT = 8080
+// Sets up the Express App
+// =============================================================
+var app = express();
+var PORT = process.env.PORT || 3000;
 
-var server = http.createServer(handleRequest)
+// Sets up the Express app to handle data parsing
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
-// Start our server
-server.listen(PORT, function () {
-  // Callback triggered when server is successfully listening. Hurray!
-  console.log('Server listening on: http://localhost:' + PORT)
-})
+// Basic route that sends the user first to the AJAX Page
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 
-// Create a function which handles incoming requests and sends responses
-function handleRequest (req, res) {
+app.get("/resume", function (req, res) {
+  res.sendFile(path.join(__dirname, "resume.html"));
+});
 
-  // Capture the url the request is made to
-  var path = req.url
-
-  if (path === '/') {
-    path = '/index.html'
-  }
-
-  if (path.indexOf('.html') < 0) {
-    path += '.html'
-  }
-
-  fs.readFile(__dirname + path , function (err, data) {
-    if (err) {
-      res.writeHead(404, {'Content-Type': 'text/html'})
-      return res.end('404 - Not Found')
-    }
-    res.writeHead(200, {'Content-Type': 'text/html'})
-    res.end(data)
-  })
-}
+// Starts the server to begin listening
+// =============================================================
+app.listen(PORT, function () {
+  console.log("App listening on PORT " + PORT);
+});
