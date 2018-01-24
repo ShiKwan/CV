@@ -4,6 +4,11 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
+var js = require("/js");
+var img = require("/img");
+var css = require("/css");
+var contactform = require("/contactform");
+var lib = require("/lib")
 
 // Sets up the Express App
 // =============================================================
