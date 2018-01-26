@@ -18,6 +18,11 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static(__dirname +'contactForm'));
+app.use(express.static(__dirname + 'css'));
+app.use(express.static(__dirname + 'img'));
+app.use(express.static(__dirname + 'js'));
+app.use(express.static(__dirname + 'lib'));
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
