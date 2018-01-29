@@ -754,10 +754,31 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translate3d(0, 0, 0);
 }
 
+#portfolio .item1 {
+    background-image: url(../img/RPS-Game.jpg);
+}
 
-/* Testimonials Section
---------------------------------*/
+#portfolio .item2 {
+    background-image: url(../img/hangman-game.jpg);
+}
 
+#portfolio .item3 {
+    background-image: url(../img/train-schedule.jpg);
+}
+
+#portfolio .item4 {
+    background-image: url(../img/commodity-research-application.jpg);
+}
+
+#portfolio .item5 {
+    background-image: url(../img/crystal-collector-game.jpg);
+}
+
+#portfolio .item6 {
+    background-image: url(../img/trivia-game.jpg);
+}
+
+/*Testimonials Section --------------------------------*/ 
 #testimonials {
     background: #f6f6f6;
     padding: 80px 0;
