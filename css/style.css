@@ -754,28 +754,37 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: translate3d(0, 0, 0);
 }
 
+.portfolio-item {
+    background-size: contain;
+}
 #portfolio .item1 {
     background-image: url(../img/RPS-Game.JPG);
+    background-size: contain;
 }
 
 #portfolio .item2 {
     background-image: url(../img/hangman-game.JPG);
+    background-size: contain;
 }
 
 #portfolio .item3 {
     background-image: url(../img/train-schedule.JPG);
+    background-size: contain;
 }
 
 #portfolio .item4 {
     background-image: url(../img/commodity-research-application.JPG);
+    background-size: contain;
 }
 
 #portfolio .item5 {
     background-image: url(../img/crystal-collector-game.JPG);
+    background-size: contain;
 }
 
 #portfolio .item6 {
     background-image: url(../img/trivia-game.JPG);
+    background-size: contain;
 }
 
 
