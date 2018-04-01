@@ -759,7 +759,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #portfolio .item1 {
     background-image: url(../img/RPS-Game.JPG);
-    background-size: contain;
 }
 
 #portfolio .item2 {
@@ -768,7 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .item3 {
-    background-image: url(../img/train-schedule.JPG);
+    background-image: url(../img/RPG-Game.JPG);
     background-size: contain;
 }
 
