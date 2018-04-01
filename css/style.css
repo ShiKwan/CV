@@ -5,7 +5,6 @@
   Author URL: https://bootstrapmade.com
 */
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -46,7 +45,6 @@ h6 {
     padding: 0;
 }
 
-
 /* Prelaoder */
 
 #preloader {
@@ -59,7 +57,6 @@ h6 {
     overflow: visible;
     background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
 
 /* Back to top button */
 
@@ -92,7 +89,6 @@ h6 {
     background: #03C4EB;
     color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Welcome
@@ -199,7 +195,6 @@ h6 {
     border: 2px solid #03C4EB;
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -252,11 +247,9 @@ h6 {
     background: rgba(0, 0, 0, 0.85);
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 
 /* Nav Menu Essentials */
 
@@ -298,7 +291,6 @@ h6 {
     min-width: 180px;
 }
 
-
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
@@ -318,7 +310,6 @@ h6 {
     content: "\f105";
 }
 
-
 /* Nav Meu Container */
 
 #nav-menu-container {
@@ -331,7 +322,6 @@ h6 {
         display: none;
     }
 }
-
 
 /* Nav Meu Styling */
 
@@ -378,7 +368,6 @@ h6 {
     margin: 0;
 }
 
-
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
@@ -404,7 +393,6 @@ h6 {
         display: inline;
     }
 }
-
 
 /* Mobile Nav Styling */
 
@@ -479,7 +467,6 @@ h6 {
     display: none;
 }
 
-
 /* Mobile Nav body classes */
 
 body.mobile-nav-active {
@@ -494,11 +481,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-
 
 /* Sections Common
 --------------------------------*/
@@ -523,7 +508,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
 
 /* Get Started Section
 --------------------------------*/
@@ -555,10 +539,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 0;
 }
 
-
 /* Resume Section 
 --------------------------------*/
-
 
 /* Get Started Section
 --------------------------------*/
@@ -589,7 +571,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #resume .resume-text:last-child {
     margin-bottom: 0;
 }
-
 
 /* Services Section
 --------------------------------*/
@@ -642,7 +623,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
 }
 
-
 /* Subscribe Section
 --------------------------------*/
 
@@ -686,7 +666,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #03C4EB;
     border: 2px solid #03C4EB;
 }
-
 
 /* Portfolio Section
 --------------------------------*/
@@ -757,6 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-item {
     background-size: contain;
 }
+
 #portfolio .item1 {
     background-image: url(../img/RPS-Game.JPG);
 }
@@ -771,21 +751,35 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-size: contain;
 }
 
+#portfolio .item3 {
+    background-image: url(../img/RPG-Game.JPG);
+    background-size: contain;
+}
+
+#portfolio .item3 {
+    background-image: url(../img/RPG-Game.JPG);
+    background-size: contain;
+}
+
 #portfolio .item4 {
-    background-image: url(../img/commodity-research-application.JPG);
+    background-image: url(../img/train-schedule.JPG);
     background-size: contain;
 }
 
 #portfolio .item5 {
-    background-image: url(../img/crystal-collector-game.JPG);
+    background-image: url(../img/commodity-research-application.JPG);
     background-size: contain;
 }
 
 #portfolio .item6 {
-    background-image: url(../img/trivia-game.JPG);
+    background-image: url(../img/crystal-collector-game.JPG);
     background-size: contain;
 }
 
+#portfolio .item7 {
+    background-image: url(../img/trivia-game.JPG);
+    background-size: contain;
+}
 
 /*Testimonials Section --------------------------------*/
 
@@ -846,7 +840,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 4px;
 }
 
-
 /* Team Section
 --------------------------------*/
 
@@ -897,7 +890,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 18px;
     margin: 0 2px;
 }
-
 
 /* Contact Section
 --------------------------------*/
@@ -973,7 +965,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
     background: #25d8fc;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
