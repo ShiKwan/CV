@@ -521,6 +521,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* background: url(../img/about-img.jpg) left top no-repeat; */
 }
 
+.container.about-container {
+    padding-top: 25px;
+}
+
 #about .about-content {
     background: #fff;
 }
@@ -529,6 +533,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #333;
     font-weight: 700;
     font-size: 28px;
+    margin-top: 25px;
 }
 
 #about .about-text {
@@ -751,18 +756,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-size: contain;
 }
 
-#portfolio .item3 {
-    background-image: url(../img/RPG-Game.JPG);
-    background-size: contain;
-}
-
-#portfolio .item3 {
-    background-image: url(../img/RPG-Game.JPG);
-    background-size: contain;
-}
-
 #portfolio .item4 {
-    background-image: url(../img/train-schedule.JPG);
+    background-image: url(../img/trivia-game.JPG);
     background-size: contain;
 }
 
@@ -772,12 +767,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .item6 {
-    background-image: url(../img/crystal-collector-game.JPG);
+    background-image: url(../img/ReactNYT.JPG);
     background-size: contain;
 }
 
 #portfolio .item7 {
-    background-image: url(../img/trivia-game.JPG);
+    background-image: url(../img/train-schedule.JPG);
+    background-size: contain;
+}
+
+#portfolio .item8 {
+    background-image: url(../img/NewsTalk.JPG);
     background-size: contain;
 }
 
