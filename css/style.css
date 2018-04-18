@@ -781,6 +781,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-size: contain;
 }
 
+#portfolio .item9 {
+    background-image: url(../img/FriendFinder.png);
+    background-size: contain;
+}
+
+#portfolio .item10 {
+    background-image: url(../img/Andale.png);
+    background-size: contain;
+}
 /*Testimonials Section --------------------------------*/
 
 #testimonials {
