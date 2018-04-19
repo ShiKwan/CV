@@ -77,6 +77,10 @@ h6 {
     .back-to-top {
         bottom: 15px;
     }
+    .non-tech-video{
+        width: 350px;
+        height: auto;
+    }
 }
 
 .back-to-top:focus {
