@@ -107,4 +107,8 @@ jQuery(document).ready(function( $ ) {
       return false;
   });
 
+  $("#cmdSend").click(function(){
+      
+  })
+
 });

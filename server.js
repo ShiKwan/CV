@@ -4,7 +4,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
-
+require('dotenv').config();
 
 // Sets up the Express App
 // =============================================================
@@ -34,7 +34,7 @@ app.get("/", function (req, res) {
 app.get("/resume", function (req, res) {
   res.sendFile(path.join(__dirname, "resume.html"));
 });
-
+require('./controllers/mailer.js')(app)
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function () {

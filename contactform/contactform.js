@@ -76,8 +76,30 @@ jQuery(document).ready(function($) {
             }
         });
         if( ferror ) return false; 
-        else var str = $(this).serialize();		
-            $.ajax({
+        else var str = $(this).serialize();	
+        console.log("here");
+            let objEmail = {
+                email: $("#email").val(),
+                name: $("#name").val(),
+                subject: $("#subject").val(),
+                message: $("#message").val()
+            }
+            console.log(objEmail);
+        $.ajax('/api/mailer',{
+                type: 'post',
+                data: objEmail,
+                success: function (data, status, xhr) {
+                    console.log(xhr)
+                    if (xhr.status == 200) {
+                        console.log('email sent successfully!')
+                    } else {
+                        console.log('email failed to send')
+                    }
+                }
+            });
+            return false;
+        
+/*             $.ajax({
                 type: "POST",
                 url: "https://formspree.io/sk.tan97@gmail.com",
                 data: str,
@@ -95,8 +117,7 @@ jQuery(document).ready(function($) {
                     }
                     
                 }
-            });
-        return false;
+            }); */
     });
 
 });
