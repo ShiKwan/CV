@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
                 url: "https://formspree.io/sk.tan97@gmail.com",
                 data: str,
                 success: function(msg){
-                   // alert(msg);
+                   // alert(msg);  
                     if(msg == 'OK') {
                         $("#sendmessage").addClass("show");			
                         $("#errormessage").removeClass("show");	

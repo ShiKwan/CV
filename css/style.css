@@ -146,10 +146,6 @@ h6 {
         display: block !important;
         margin-bottom: 15px;
     }
-    .even {
-        background-color: lightgray !important;
-        padding-top: 15px !important;
-    }
 }
 
 #hero h2 {
@@ -754,46 +750,61 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none
 }
 
+.even {
+    background-color: lightgray !important;
+    padding-top: 15px !important;
+}
+
+.odd {
+    background-color: lightcyan !important;
+    padding-top: 15px !important;
+}
+
+.swipebox img {
+    padding: 5px 5px 25px 5px;
+    max-width: 100px;
+}
+
 .portfolio-item {
     background-size: contain;
 }
 
 #portfolio .item1 {
-    background-image: url(../img/RPS-Game.JPG);
+    background-image: url(../img/RockPaperScissors/main.JPG);
 }
 
 #portfolio .item2 {
-    background-image: url(../img/hangman-game.JPG);
+    background-image: url(../img/Hangman/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item3 {
-    background-image: url(../img/RPG-Game.JPG);
+    background-image: url(../img/RPG_Game/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item4 {
-    background-image: url(../img/trivia-game.JPG);
+    background-image: url(../img/trivia/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item5 {
-    background-image: url(../img/commodity-research-application.JPG);
+    background-image: url(../img/SBS_Commodity_Broker/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item6 {
-    background-image: url(../img/ReactNYT.JPG);
+    background-image: url(../img/NYT_ReactJS/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item7 {
-    background-image: url(../img/train-schedule.JPG);
+    background-image: url(../img/train_schedule/main.JPG);
     background-size: contain;
 }
 
 #portfolio .item8 {
-    background-image: url(../img/NewsTalk.JPG);
+    background-image: url(../img/NewsTalk/main.JPG);
     background-size: contain;
 }
 
