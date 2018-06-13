@@ -771,6 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .item1 {
     background-image: url(../img/RockPaperScissors/main.JPG);
+    background-size: contain;
 }
 
 #portfolio .item2 {
