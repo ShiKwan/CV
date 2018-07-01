@@ -89,11 +89,18 @@ jQuery(document).ready(function($) {
                 type: 'post',
                 data: objEmail,
                 success: function (data, status, xhr) {
-                    console.log(xhr)
-                    if (xhr.status == 200) {
+                    console.log(xhr.responseText)
+                    console.log(xhr.status)
+                    if (xhr.status === 200) {
                         console.log('email sent successfully!')
+                        $("#sendmessage").addClass("show");
+                        $("#errormessage").removeClass("show");
+                        $('.contactForm').find("input, textarea").val("");
                     } else {
                         console.log('email failed to send')
+                        $("#sendmessage").removeClass("show");
+                        $("#errormessage").addClass("show");
+                        $('#errormessage').html(msg);
                     }
                 }
             });
